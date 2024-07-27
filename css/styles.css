@@ -19,6 +19,7 @@ body {
     background-attachment: fixed;
 }
 
+
 .header {
     background-color: rgba(0, 0, 0, 0.13);
     display: flex;
@@ -26,7 +27,7 @@ body {
     align-items: center;
     height: 85px;
     padding: 5px 10%;
-    position: sticky;
+    /* position: sticky; */
     top: 0%;
 }
 
@@ -55,11 +56,9 @@ header .navbar li {
     padding: 0% 20px;
 }
 
-.header .navbar li:hover {
-    transform: scale(1.1);
-}
 
-header .navbar li a {
+
+header .navbar li a{
     text-decoration: none;
     text-decoration: ;
     font-size: 700;
@@ -117,22 +116,15 @@ h1 {
     object-fit: contain;
 }
 
-/* .card-1{
-    background-color: rgb(18, 206, 96); */
-}
-.card-2{
-    /* background-color: rgb(221, 236, 0); */
-}
-.card-3{
-    /* background-color: blue; */
-}
+
 
 .titulo-articulos{
 display: flex;
 justify-content: center;
 align-items:flex-end;
 /* background-color: aqua; */
-height: 4.875rem;
+/* height: 4.875rem; */
+font-size: 27px;
 }
 
 .precio-card{
@@ -141,44 +133,109 @@ height: 4.875rem;
     /* background-color: aqua; */
 }
 
-.footer-grid{
+.card-info button{
+display: flex;
+width: 80%;
+height: 50px;
+color: #fff;
+background: #1414144f;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+border: none;
+cursor: pointer;
+transition: .3s ease all;
+border-radius: 5px;
+position: relative;
+overflow: hidden;
+margin:10% ;
+}
+
+.card-info button:hover{
+/* background: greenyellow; */
+}
+
+button span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+.card-info button::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #1a1a1a;
+	position: absolute;
+	z-index: 1;
+	top: -80px;
+	left: 0;
+	transition: .3s ease-in-out all;
+}
+
+.card-info button:hover::after{
+    top: 0;
+
+}
+
+/* .footer-grid{
     display: grid;
     width: 100%;
     height: 12.5rem;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    ".parrafo-2 .parrafo-2"
+    ""
+    ""
     ;
+} */
+
+.container{
+    width: 100%;
+    height: 100px;
+
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
 }
 
-.parrafo-1{
-    grid-area:"parrafo-1";
-    background-color: rgb(226, 70, 43);
-    grid-column-start:1;
-    grid-column-end:2 ;
-    grid-row-start:3 ;
-    grid-row-end:4 ;
+.element{
+    color: #000000;
+    text-align:start;
+margin: 0% 20px;
+
+
+
 }
-.parrafo-2{
-    grid-area: "parrafo-2";
-    background-color: rgb(43, 46, 226);
-    grid-column-start: ;
-    grid-column-end: ;
-    grid-row-start: ;
-    grid-row-end: ;
+
+.element-1{
+
+    grid-column: 1/2; 
+    grid-row: 1/2;
 }
-.parrafo-3{
-    grid-area: "parrafo-3";
-    background-color: rgb(43, 226, 211);
-    grid-column-start: ;
-    grid-column-end: ;
-    grid-row-start: ;
-    grid-row-end: ;
+
+.element-2{
+
+    grid-column: 1/2; 
+    grid-row: 2/3;
 }
-.imagen-1{
-    grid-area:"imagen-1";
-    background-color: blueviolet;
-    grid-column-start: ;
-    grid-column-end: ;
-    grid-row-start: ;
-    grid-row-end: ;
+
+.element-3{
+
+    grid-column: 1/2; 
+    grid-row: 3/4;
+}
+
+.img-grid{
+    width: 2.25rem;
+    height: 2.25rem;
+    object-fit: contain;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: end;
+    /* margin: 10px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
