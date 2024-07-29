@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="shortcut icon" href="../assets/images/LOGO MAB VAPES.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body class="fondo-2">
     <header class="header">
         <div class="logo-pagina">
@@ -25,39 +27,53 @@
         </div>
     </header>
     <main>
-        <section>
-            <p>Para obtener más información acerca de MAB VAPES o comunicarte con nosotros, dejanos tus datos aquí:</p>
+        <section class="contenido-form">
+            <div>
+                <h1><span>MAB/</span>VAPES</h1>
+            </div>
+            <div class="formulario">
+
+                <form action="">
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <label for="telefono">Numero de telefono</label>
+                        <input type="tel" name="telefono" id="telefono" required>
+                    </p>
+                    <p>
+                        <label for="consulta">Tipo de consulta</label>
+                        <input type="text" name="consulta" id="consulta" required>
+                    </p>
+                    <p class="block">
+                        <label for="comentario">Comentario</label>
+                        <input type="text" name="comentario" id="comentario" required>
+                    </p>
+                    <p class="block">
+                        <button>Enviar</button>
+                    </p>
+                </form>
+            </div>
         </section>
-        <section>
-            <form action="" class="formulario">
-                <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" required>
-                </div>
-                <div>
-                <label for="email">E-mail</label>
-                <input type="text" name="email" id="email" required>
-                </div>
-                <div>
-                <label for="telefono">Numero de telefono</label>
-                <input type="tel" name="telefono" id="telefono" required>
-                </div>
-                <div>
-                <label for="consulta">Tipo de consulta</label>
-                <input type="text" name="consulta" id="consulta" required>
-                </div>
-                <div>
-                <label for="comentario">Comentario</label>
-                <input type="text" name="comentario" id="comentario" required>
-                </div>
-                <div>
-                    <button>Enviar</button>
-                </div>
-            </form>
-        </section>
+
     </main>
     <footer>
-        <a href=""><img src="../assets/images/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.png" alt="" class="wsp-logo"></a>
+        <div class="container">
+            <div class="element element-1">Atencion al consumidor</div>
+
+            <div class="element element-2">11 4099-2374</div>
+
+            <div class="element element-3">Vapes&iphones@gmail.com</div>
+
+            <img src="../assets/images/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.png" alt="" class="img-grid">
+
+        </div>
     </footer>
 </body>
+
 </html>
