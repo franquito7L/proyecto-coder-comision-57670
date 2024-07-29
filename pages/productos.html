@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,63 +8,113 @@
     <link rel="shortcut icon" href="../assets/images/LOGO MAB VAPES.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="fondo-2">
-    <header>
-        <a href="../index.html"><img src="../assets/images/LOGO MAB VAPES.png" alt="Logo de la pagina" class="logo-pagina"></a>
+
+<body>
+    <header class="header">
+        <div class="logo-pagina">
+            <a href="../index.html"><img src="../assets/images/LOGO MAB VAPES.png" alt="Logo de la pagina"></a>
+        </div>
         <div>
-            <nav>
-                <form action="">
-                    <label for="buscador"></label>
-                    <input type="search" name="buscador" id="buscador" placeholder="Buscar productos...">
-                </form>
-            </nav>
+            <form action=""></form>
+            <label for="buscador"></label>
+            <input type="search" name="buscador" id="buscador" class="search-header" placeholder="Buscar productos...">
         </div>
     </header>
+
     <main>
-        <section>
-            <div>
-                <a href="./geek-bar-lemon.html" class="product-vape">
-                    <img src="../assets/images/geek-frutilla.png" alt="Geek frutilla" class="vape-mushy">
-                    <p>Geek-bar <br>Frutilla</p>
-                </a>
-            </div>
-            <div>
-                <a href="./geek-bar-lemon.html" class="product-vape">
-                    <img src="../assets/images/dummy.png" alt="Vape dumyy" class="vape-mushy">
-                    <p>Dummy vape <br>Strawberry</p>
-                </a>
-            </div>
-            <div>
-                <a href="./geek-bar-lemon.html" class="product-vape">
-                    <img src="../assets/images/geek-limon.png" alt="Geek limon" class="vape-mushy">
-                    <p>Geek Bar <br>Limon</p>
-                </a>
-            </div>
-            <div>
-                <a href="./geek-bar-lemon.html" class="product-vape">
-                    <img src="../assets/images/ignite.png" alt="Vape ignite" class="vape-mushy">
-                    <p>Ignite <br>8000 Puffs</p>
-                </a>
-            </div>
-            <div>
-                <a href="./geek-bar-lemon.html" class="product-vape">
-                    <img src="../assets/images/alien.png" alt="Alien vape" class="vape-mushy">
-                    <p>Dummy vape <br>Alien invasion</p>
-                </a>
-            </div>
-            <div>
-                <a href="./geek-bar-lemon.html" class="product-vape">
-                    <img src="../assets/images/tmt.png" alt="tmt vape" class="vape-mushy">
-                    <p>TMT Vape <br>16000 Puffs</p>
-                </a>
-            </div>
-            <div>
-                <button>Mostrar mas</button>
-            </div>
+        <!-- <section class="contenido-cards"> -->
+        <section class="contenedor-productos">
+            <article class="card card-1">
+                <div class="card-img">
+                    <a href="./geek-bar-lemon.html"><img src="../assets/images/geek-frutilla.png" alt="vape ignite"></a>
+                </div>
+                <div class="card-info">
+                    <h3 class="precio-card">Geek-Bar</h3>
+                    <p class="precio-card">Frutilla</p>
+                    <a href="./geek-bar-lemon.html">
+                        <button class="boton-compra"><span>Comprar</span></button>
+                    </a>
+                </div>
+            </article>
+            <article class="card card-2">
+                <div class="card-img">
+                    <a href="./geek-bar-lemon.html"><img src="../assets/images/dummy.png"></a>
+                </div>
+                <div class="card-info">
+                    <h3 class="precio-card">Dumy Vape</h3>
+                    <p class="precio-card">StrawBerry</p>
+                    <a href="./geek-bar-lemon.html">
+                        <button class="boton-compra"><span>Comprar</span></button>
+                    </a>
+                </div>
+            </article>
+            <article class="card card-3">
+                <div class="card-img">
+                    <a href="./geek-bar-lemon.html"><img src="../assets/images/geek-limon.png" alt=""></a>
+                </div>
+                <div class="card-info">
+                    <h3 class="precio-card">Geek-Bar</h3>
+                    <p class="precio-card">Lemon</p>
+                    <a href="./geek-bar-lemon.html">
+                        <button class="boton-compra"><span>Comprar</span></button>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <section class="contenedor-productos-2">
+            <article class="card card-1">
+                <div class="card-img">
+                    <a href="./geek-bar-lemon.html"><img src="../assets/images/ignite.png" alt="vape ignite"></a>
+                </div>
+                <div class="card-info">
+                    <h3 class="precio-card">Vape Ignite</h3>
+                    <p class="precio-card">8000 Puff</p>
+                    <a href="./geek-bar-lemon.html">
+                        <button class="boton-compra"><span>Comprar</span></button>
+                    </a>
+                </div>
+            </article>
+            <article class="card card-2">
+                <div class="card-img">
+                    <a href="./geek-bar-lemon.html"><img src="../assets/images/alien.png"></a>
+                </div>
+                <div class="card-info">
+                    <h3 class="precio-card">Dumy Vape</h3>
+                    <p class="precio-card">Alien Invasion</p>
+                    <a href="./geek-bar-lemon.html">
+                        <button class="boton-compra"><span>Comprar</span></button>
+                    </a>
+                </div>
+            </article>
+            <article class="card card-3">
+                <div class="card-img">
+                    <a href="./geek-bar-lemon.html"><img src="../assets/images/tmt.png" alt=""></a>
+                </div>
+                <div class="card-info">
+                    <h3 class="precio-card">Vape TMT</h3>
+                    <p class="precio-card">16000 Puff</p>
+                    <a href="./geek-bar-lemon.html">
+                        <button class="boton-compra"><span>Comprar</span></button>
+                    </a>
+                </div>
+            </article>
         </section>
     </main>
+
     <footer>
-        <a href=""><img src="../assets/images/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.png" alt="" class="wsp-logo"></a>
+        <div class="container">
+            <div class="element element-1">Atencion al consumidor</div>
+
+            <div class="element element-2">11 4099-2374</div>
+
+            <div class="element element-3">Vapes&iphones@gmail.com</div>
+
+            <img src="../assets/images/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.png"
+                alt="" class="img-grid">
+
+        </div>
     </footer>
+
 </body>
+
 </html>
