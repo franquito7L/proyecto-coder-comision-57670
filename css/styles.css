@@ -318,6 +318,20 @@ text-transform: uppercase;
     object-fit: contain;
 }
 
+@media(max-width:613px){
+    .lista-titulo{
+        font-size: 20px;
+    }
+    .lista{
+        font-size: 15px;
+    }
+
+    .container .element{
+        font-size: 15px;
+
+    }
+}
+
 .contenido-form {
     max-width: 1170px;
     margin-left: auto;
