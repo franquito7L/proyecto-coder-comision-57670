@@ -1,0 +1,39 @@
+.card-info{
+    button{
+        display: flex;
+    width: 80%;
+    height: 50px;
+    color: #fff;
+    background: #1414144f;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin:10% ;
+    span{
+        position: relative;
+        z-index: 2;
+        transition: .3s ease all;
+    }
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #1a1a1a;
+        position: absolute;
+        z-index: 1;
+        top: -80px;
+        left: 0;
+        transition: .3s ease-in-out all;
+    }
+    &:hover::after{
+        top: 0;
+    }
+    }
+}
+    

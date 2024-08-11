@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    height: 100px;
+
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.element{
+    color: #ffffff;
+    text-align:start;
+margin: 0% 20px;
+
+
+
+}
+
+.element-1{
+
+    grid-column: 1/2; 
+    grid-row: 1/2;
+}
+
+.element-2{
+
+    grid-column: 1/2; 
+    grid-row: 2/3;
+}
+
+.element-3{
+
+    grid-column: 1/2; 
+    grid-row: 3/4;
+}
+
+.img-grid{
+    width: 2.25rem;
+    height: 2.25rem;
+    object-fit: contain;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: end;
+    /* margin: 10px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

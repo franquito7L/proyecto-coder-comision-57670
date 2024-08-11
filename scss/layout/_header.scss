@@ -1,0 +1,44 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.3125rem;
+    padding: 5px 10%;
+    /* position: sticky; */
+    top: 0%;
+}
+
+.logo-pagina{
+    img{
+        
+            height: 7rem;
+            width: auto;
+            transition: all 0.3s;
+            &:hover{
+                transform: scale(1.2);
+    }
+}
+}
+
+.carro-compra {
+    height: 1.3rem;
+    width: auto;
+    padding: 0% 20px;
+}
+
+.navbar {
+    list-style: none;
+    li {
+        display: inline;
+        padding: 0% 20px;
+        a{
+            text-decoration: none;
+            font-size: 700;
+            color: $color-letras1;
+            &:hover{
+                color: $color-letras2;
+            }
+        }
+    }
+}
