@@ -1,0 +1,17 @@
+@media (max-width:838px){
+    .header{
+        flex-direction: column;
+        height: 10.3125rem;
+        gap: 30px;
+        background-color: rgba(54, 111, 160, 0);
+        .logo-pagina{
+            width: auto;
+            height: 4rem;
+        
+        }
+
+        .navbar{
+            // padding-bottom: 20px;
+        }
+}
+}
