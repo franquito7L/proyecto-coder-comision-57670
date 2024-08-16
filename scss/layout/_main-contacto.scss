@@ -36,22 +36,23 @@
             border-bottom: 1px solid #f7f7f7a4;
         }
         button {
-            background: #B70E21;
+            background: #ffffff;
             border: 0;
             text-transform: uppercase;
             font-family: "Poppins", sans-serif;
             font-size: 15px;
-            
+            color: #1a1a1a;
+            font-weight: 700;
             padding: 1.50rem;
             cursor: pointer;
             &:hover{
-                background: #ff0000;
+                background: #242424;
                 color: $color-letras1;
                 transition: background-color 1s ease-out;
                 outline: 0;
             }
             &:focus{
-                background: #ff0000;
+                background: #242424;
                 color: $color-letras1;
                 transition: background-color 1s ease-out;
                 outline: 0;

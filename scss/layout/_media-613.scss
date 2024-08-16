@@ -10,4 +10,8 @@
         font-size: 15px;
 
     }
+    .contenedor-productos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,320px);
+        }
 }
