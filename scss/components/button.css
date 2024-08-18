@@ -1,0 +1,36 @@
+.card-info button {
+  display: flex;
+  width: 80%;
+  height: 50px;
+  color: #fff;
+  background: rgba(20, 20, 20, 0.3098039216);
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin: 10%;
+}
+.card-info button span {
+  position: relative;
+  z-index: 2;
+  transition: 0.3s ease all;
+}
+.card-info button::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  position: absolute;
+  z-index: 1;
+  top: -80px;
+  left: 0;
+  transition: 0.3s ease-in-out all;
+}
+.card-info button:hover::after {
+  top: 0;
+}/*# sourceMappingURL=button.css.map */

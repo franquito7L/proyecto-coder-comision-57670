@@ -14,4 +14,27 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6,320px);
         }
-}
+        .grid{
+            grid-template-columns: 1fr;
+            grid-template-rows: 300px 400px 400px; 
+          }
+          
+        .main-1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        
+    .main-2{
+            grid-column: 1/2;
+            grid-row: 3/4;
+          }
+          
+          .main-3{
+            grid-column: 1/2;
+            grid-row: 2/3;}
+    
+          .mains{
+            text-align: center;
+            align-self: center;
+          }
+    }
